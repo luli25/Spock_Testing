@@ -17,8 +17,8 @@ class PublisherSpec extends Specification {
         publisher.send("Hello")
 
         then:
-        subscriber1.receive("Hello")
-        subscriber2.receive("Hello")
+          subscriber1.receive("Hello")
+          subscriber2.receive("Hello")
     }
 
 }
