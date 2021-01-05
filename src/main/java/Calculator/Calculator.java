@@ -17,5 +17,13 @@ public class Calculator {
         result = numA - numB;
     }
 
+    public void Multi(double numA, double num) {
+        result = numA * numB;
+    }
+
+    public void Division(double numA, double num) {
+        result = numA / numB;
+    }
+
 
 }
