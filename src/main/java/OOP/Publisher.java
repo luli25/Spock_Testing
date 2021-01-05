@@ -8,6 +8,13 @@ public class Publisher {
     Subscriber subscriber;
     String message;
 
+    void addSubscriber(Subscriber subscriber) {
+        subscribers.add(subscriber);
+    }
+
     public void send(String message) {
+        for (Subscriber subscriber : subscribers) {
+            subscriber.receive(message);
+        }
     }
 }
