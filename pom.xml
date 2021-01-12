@@ -31,6 +31,12 @@
             <artifactId>byte-buddy</artifactId>
             <version>1.7.11</version>
         </dependency>
+        <dependency>
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>3.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
